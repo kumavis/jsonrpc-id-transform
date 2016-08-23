@@ -1,7 +1,6 @@
 {
   "name": "jsonrpc-id-transform",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
@@ -15,5 +14,14 @@
   "devDependencies": {
     "mississippi": "^1.2.0",
     "tape": "^4.6.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumavis/jsonrpc-id-transform.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kumavis/jsonrpc-id-transform/issues"
+  },
+  "homepage": "https://github.com/kumavis/jsonrpc-id-transform#readme",
+  "description": ""
 }
