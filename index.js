@@ -33,7 +33,7 @@ function createIdTranformer(idMapFn){
       var output
       // handle batched messages
       if (Array.isArray(input)) {
-        output = ensureArray(input).map(msg => transformMsgId(msg, idMapFn))
+        output = input.map(msg => transformMsgId(msg, idMapFn))
       } else {
         output = transformMsgId(input, idMapFn)
       }
@@ -56,8 +56,4 @@ function createRandomId(){
   const extraPart = Math.floor(Math.random()*Math.pow(10, extraDigits))
   // 16 digits
   return datePart+extraPart
-}
-
-function ensureArray(obj){
-  return Array.isArray(obj) ? obj : [obj]
 }
