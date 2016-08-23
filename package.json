@@ -1,0 +1,19 @@
+{
+  "name": "jsonrpc-id-transform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readable-stream": "^2.1.5",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "mississippi": "^1.2.0",
+    "tape": "^4.6.0"
+  }
+}
